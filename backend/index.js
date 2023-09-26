@@ -13,6 +13,7 @@ app.get('/', (request, response) => {
     return response.status(234).send('MERN Stack Book Store')
 });
 
+// Add a new book to database
 app.post('/books', async (request, response) => {
     try {
         if (
