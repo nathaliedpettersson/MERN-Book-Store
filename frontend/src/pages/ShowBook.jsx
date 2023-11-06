@@ -63,6 +63,3 @@ const ShowBook = () => {
 }
 
 export default ShowBook;
-
-// Fix this error
-// Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cat"
