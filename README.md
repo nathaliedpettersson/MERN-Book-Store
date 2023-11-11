@@ -1,6 +1,8 @@
 ## MERN-Book Store :bookmark:
 
-#### This is a work in progress and my goal with this project is to get familiar with and learn more about the so-called MERN stack (thanks to a bit of guidance from freeCodeCamp) 
+#### Thanks to freeCodeCamp for guiding me with this project
 
-Hang tight and wait for updates 🚀
+- Includes MongoDB, Express, React and Node (MERN)
+
+<i>Left to do<i>: Put my own styling on this and refactor the code a bit! 
 
