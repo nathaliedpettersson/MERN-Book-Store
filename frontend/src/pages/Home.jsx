@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { BiEdit } from 'react-icons/bi';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { MdOutlineDelete } from 'react-icons/md';
-import { BsFillPlusCircleFill } from 'react-icons/bs';
+import { BsFillPlusCircleFill } from 'react-icons/bs';
 
 const Home = () => {
     const [books, setBooks] = useState([]);

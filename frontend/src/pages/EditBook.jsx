@@ -15,16 +15,16 @@ const EditBook = () => {
     useEffect(() => {
         setLoading(true);
         axios.get(`http://localhost:5555/books/${id}`)
-        .then((response) => {
-            setTitle(response.data.title);
-            setAuthor(response.data.author);
-            setPublishYear(response.data.publishYear);
-            setLoading(false);
-        }).catch((error) => {
-            setLoading(false);
-            alert('An error occured when editing data.');
-            console.log(error);
-        })
+            .then((response) => {
+                setTitle(response.data.title);
+                setAuthor(response.data.author);
+                setPublishYear(response.data.publishYear);
+                setLoading(false);
+            }).catch((error) => {
+                setLoading(false);
+                alert('An error occured when editing data.');
+                console.log(error);
+            })
     }, [])
 
     const handleEditBook = () => {
@@ -58,17 +58,17 @@ const EditBook = () => {
                 <div className='my-4'>
                     <label className='text-xl mr-4 text-custom-orange'>Title</label>
                     <input type="text" value={title} onChange={(e) => setTitle(e.target.value)}
-                    className='rounded-lg px-4 py-2 w-full' />
+                        className='rounded-lg px-4 py-2 w-full' />
                 </div>
                 <div className='my-4'>
                     <label className='text-xl mr-4 text-custom-orange'>Author</label>
                     <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)}
-                    className='rounded-lg px-4 py-2 w-full' />
+                        className='rounded-lg px-4 py-2 w-full' />
                 </div>
                 <div className='my-4'>
                     <label className='text-xl mr-4 text-custom-orange'>Publish Year</label>
                     <input type="text" value={publishYear} onChange={(e) => setPublishYear(e.target.value)}
-                    className='rounded-lg px-4 py-2 w-full' />
+                        className='rounded-lg px-4 py-2 w-full' />
                 </div>
                 <button className='p-2 rounded-lg bg-custom-grey text-custom-snow uppercase' onClick={handleEditBook}>Save</button>
             </div>

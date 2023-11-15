@@ -35,7 +35,7 @@ const DeleteBook = () => {
                     Yes!
                 </button>
             </div>
-            </div>
+        </div>
     )
 }
 
