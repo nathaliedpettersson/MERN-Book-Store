@@ -38,11 +38,11 @@ const Home = () => {
                 <table className='w-full border-separate border-spacing-2'>
                     <thead>
                         <tr>
-                            <th className='border-2 border-custom-snow text-custom-orange uppercase rounded-md'>No</th>
-                            <th className='border-2 border-custom-snow text-custom-orange uppercase rounded-md'>Title</th>
-                            <th className='border-2 border-custom-snow text-custom-orange uppercase rounded-md max-md:hidden'>Author</th>
-                            <th className='border-2 border-custom-snow text-custom-orange uppercase rounded-md max-md:hidden'>Published year</th>
-                            <th className='border-2 border-custom-snow text-custom-orange uppercase rounded-md'>Operations</th>
+                            <th className='border-2 border-custom-snow text-custom-orange text-2xl uppercase rounded-md'>No</th>
+                            <th className='border-2 border-custom-snow text-custom-orange text-2xl uppercase rounded-md'>Title</th>
+                            <th className='border-2 border-custom-snow text-custom-orange text-2xl uppercase rounded-md max-md:hidden'>Author</th>
+                            <th className='border-2 border-custom-snow text-custom-orange text-2xl uppercase rounded-md max-md:hidden'>Published year</th>
+                            <th className='border-2 border-custom-snow text-custom-orange text-2xl uppercase rounded-md'>Operations</th>
                         </tr>
                     </thead>
                     <tbody>
