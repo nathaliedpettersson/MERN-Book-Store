@@ -5,7 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-color': '#fafae5'
+        'custom-cobolt': '#013fa5',
+        'custom-orange': '#e38648',
+        'custom-grey': '#262626',
+        'custom-snow': '#fdf7fa'
       }
     },
   },
