@@ -27,7 +27,7 @@ const Home = () => {
     return (
         <div className='p-4'>
             <div className='flex justify-between items-center'>
-                <h1 className='text-5xl uppercase my-8 text-custom-grey'>Books List</h1>
+                <h1 className='text-5xl uppercase my-8 text-custom-grey underline'>Books List</h1>
                 <Link to='/books/create'>
                     <BsFillPlusCircleFill className='text-custom-orange text-4xl mr-2 hover:scale-150' />
                 </Link>
