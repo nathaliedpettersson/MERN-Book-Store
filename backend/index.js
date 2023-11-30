@@ -5,6 +5,7 @@ import booksRoute from './routes/booksRoute.js';
 import cors from 'cors';
 
 const app = express();
+const server = express;
 
 // Parse request body
 app.use(express.json());
@@ -37,3 +38,5 @@ mongoose.connect(mongoDBUrl)
     .catch((error) => {
         console.log(error, 'Error when trying to connect to database.');
     });
+
+    module.exports = server;
